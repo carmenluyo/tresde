@@ -1,0 +1,189 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title> Carmen Luyo </title>
+		<meta charset="utf-8">
+		<meta name="description" content=" text">
+		<meta name="keywords" content="Marketing">
+		<meta name="author" content="Carmen Luyo">
+		<!-- Responsive -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+		<link rel="stylesheet" type="text/css" href="css/home.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	</head>
+	<body>
+
+		<div id="fullpage">
+			<!-- HOME -->
+			<section class="home section bg-section" data-anchor="home">
+		  		<header id="menu">
+					<div class="r-overlay"></div>
+					<div class="ctn-menu">
+						<div class="left">
+							<figure>
+								<img src="images/Lentes.png" alt="">
+							</figure>
+						</div>
+						<div class="right">
+						
+							<div class="btn-menu">
+								<span class="mobile-icon menu-mobile">
+									<i></i>
+									<i></i>
+									<i></i>
+								</span>
+							</div>
+							<nav class="menu-responsive">
+								<div class="nav-logo">
+									<i>
+										<img src="images/Lentes.png" alt="">
+									</i>
+								</div>
+								<span class="close-nav">
+									<i></i>
+									<i></i>
+								</span>
+								<ul class="reset list-unstyled menu-gral">
+					          	<li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
+					          	<li data-menuanchor="branding"><a href="#branding">Branding</a></li>
+								<li data-menuanchor="SocialMedia"><a href="#SocialMedia">Social Media</a></li>
+								<li data-menuanchor="DisenoWeb"><a href="#DisenoWeb">Diseño Web</a></li>
+								<li data-menuanchor="contact"><a href="#contact">contact</a></li>
+							</ul>    
+							</nav>
+						</div>
+					</div>					
+				</header>
+				<div class="shadow">
+					<div class="info">
+						<p class="title-home">
+							La Innovación es una obligación en el mundo digital actual <span>por eso es necesario dejar de ver el mundo en solo dos dimensiones.</span>
+						</p>
+						<p class="title-home">
+							Es momento de cambiar el status quo,<br>
+							<span>Es momento de ver las cosas en tresde.</span>
+						</p>
+					</div>
+				</div>
+			</section>
+		
+			<!-- BRANDING -->
+
+			<section class="section branding bg-section" data-anchor="Branding">
+        	
+				<div class="shadow">
+					<div class="info">
+						<h1 class="h1-title">
+							Branding
+						</h1>
+						<p class="title-home">
+							El Branding de una empresa es su ADN, en <span>TRESDE</span> lo <br> tenemos clarísimo por eso nos esforzamos tanto para crear la mejor identidad de marca (naming, diseño de logotipo, manual de marca, pieza gráficas, diseño de empaque) a la altura de las exigencias creativas que el mercado exige actualmente.
+						</p>
+					</div>
+				</div>
+
+      		</section>
+
+      		<!-- Social Media -->
+
+			<section class="section SocialMedia bg-section" data-anchor="SocialMedia">
+        	
+				<div class="shadow">
+					<div class="info">
+						<h1 class="h1-title">
+							Social Media
+						</h1>
+						<p class="title-home">
+							La cantidad de información que hoy se puede ecnontrar en lo digital, nos obliga a crear contenido de calidad que no solo genere recordación de marca sino que, logre aún más importante,engagement.<br>
+							Recuerda que tu marca compite con contenido real, por eso nuestra meta es hacer marcas cada vez más cercanas.
+						</p>
+					</div>
+				</div>
+
+      		</section>
+
+      		<!-- Diseño Web -->
+
+			<section class="section DisenoWeb bg-section" data-anchor="DisenoWeb">
+        	
+				<div class="shadow">
+					<div class="info">
+						<h1 class="h1-title">
+							Diseño Web
+						</h1>
+						<p class="title-home">
+							Una web no solo se encarga de dar información sobre tu marca o servicio, es la cara con la que tus futuros clientes te recodarán, es el anexo más rápido entre lo que ofreces y lo que el consumidor necesita. En <span>TREDE</span> te brindamos diseños y desarrollos a tu medida priorizando la experiencia de usuario y la generación de leads.
+						</p>
+					</div>
+				</div>
+
+      		</section>
+
+      		
+			<section class="contact section bg-section" data-anchor="contact">
+				<div class="shadow flex-center ">
+					<h2 class="title">Contáctanos</h2>
+					<p>
+						<a href="mailto:c.luyorosales@gmail.com">hola@tresdestudio.pe</a> |  993765564
+					</p>
+					<ul class="socialfooter">
+
+						<li>
+							<a href="#" target="_blank">
+								<i class="fa fa-instagram"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<i class="fa fa-facebook-f"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="#" target="_blank">
+								<i class="fa fa-linkedin"></i>
+							</a>
+						</li>
+							
+						</ul>
+				</div>
+			</section>
+			
+		</div>
+			
+	  	
+	  		  	
+			<script src="js/jquery-3.1.0.min.js"></script>
+			<script src="js/jquery.fullPage.js"></script>
+
+	  	<script src="js/jquery.lazyload.js"> </script>
+			<script src="js/main.js"></script>
+			<script>
+				$("img.lazy").lazyload({
+				    effect : "fadeIn"
+				});
+				
+				$(document).ready(function() {
+    				function initialization() {
+				        $('#fullpage').fullpage({
+			            resize: false,
+			            menu: '#menu',
+			            anchors: ['home', 'branding', 'SocialMedia', 'DisenoWeb', 'contact'],
+			            navigation: false,
+			            navigationTooltips: ['home', 'branding', 'SocialMedia', 'DisenoWeb', 'contact'],
+			            showActiveTooltip: false,
+			            slidesNavigation: false,
+			            slidesNavPosition: 'bottom',
+			            loopHorizontal: false,
+			            responsive: 768
+				        });
+					    }
+				    initialization();
+				});
+			</script>
+	</body>
+</html>	
